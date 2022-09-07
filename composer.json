@@ -1,0 +1,8 @@
+{
+  "name": "company/report",
+  "require": {
+    "imaxi/php-gitlab-api": "dev-master",
+    "phpmailer/phpmailer": "~5.2",
+    "mpdf/mpdf": "~6.0"
+  }
+}

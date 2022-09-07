@@ -1,0 +1,10 @@
+app:
+    container_name: employment_report
+    build: "./docker"
+    net: host
+    volumes:
+        - ".:/var/www"
+    working_dir: "/var/www"
+    environment:
+        - DEV_UID
+        - DEV_GID
